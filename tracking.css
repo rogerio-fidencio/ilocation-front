@@ -1,0 +1,60 @@
+*{
+    font-family: Sul Sans Regular;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.header-titulo{
+    background-color: #EA1D2C;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.cliente{
+    /* background-color: #DA5D69 ; */
+    background-color: #A6A29F;
+}
+
+.cliente-pedido{
+    font-size: 18px;
+    color: black;
+    padding-top: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.alinhar-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.btn { 
+    background-color: #EA1D2C ;
+    color: #ffffff;
+}
+
+.btn:hover{
+    background-color: #DA5D69 ;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+
+ 
