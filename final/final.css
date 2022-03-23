@@ -1,5 +1,5 @@
 *{
-    font-family: Sul Sans Regular;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -14,13 +14,13 @@ body{
 }
 
 .cliente{
-    /* background-color: #DA5D69 ; */
-    background-color: #A6A29F;
+    border-radius: 0 0 30px 30px;
+    background-color: #a6a29f44;
 }
 
 .cliente-pedido{
     font-size: 18px;
-    color: black;
+    color: #A6A29F;
     padding-top: 20px;
 }
 
@@ -37,6 +37,11 @@ p{
     min-height: 50vh;
 }
 
+.alinhar-info img {
+    min-width: 150px;
+    height: 150px;
+}
+
 .alinhar-btn{
     display: flex;
     justify-content: space-between;
@@ -44,22 +49,29 @@ p{
 }
 
 .btn { 
-    background-color: #EA1D2C ;
-    color: #ffffff;
+    all: unset;
     width: 120px;
-}
-
-.btn-verde{
-    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #EA1D2C;
+    transition: all ease-in .5s;
 }
 
 .btn:hover{
-    background-color: #DA5D69 ;
     color: #ffffff;
+    background-color: #9C050B;
 }
 
-.btn-verde:hover{
-    background-color: rgba(6, 219, 6, 0.884);
+.btn-cancel {
+    background-color: #A6A29F;
+}
+
+.btn-cancel:hover{
+    background-color: #888582;
 }
 
 a{
