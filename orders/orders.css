@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.header-title {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #EA1D2C;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+}
+
+.table > :not(caption) > * > * {
+    padding: 1rem 0;
+}
+
+.table tr {
+    cursor: pointer;
+}
+
+.address-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    position: relative;
+    color: #A6A29F;
+    font-size: 14px;
+}
+
+.pin-icon {
+    position: absolute;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+}
+
+td a {
+    color: #000;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: #EA1D2C;
+} 
+
+.order-modal {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.modal-content {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    z-index: 1;
+}
+
+.modal-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn-tracking {
+    all: unset;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #EA1D2C;
+    transition: all ease-in .5s;
+}
+
+.btn-tracking:hover {
+    background-color: #9C050B;
+}
+
+a, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
