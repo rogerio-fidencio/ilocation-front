@@ -95,6 +95,7 @@ td a:hover {
   all: unset;
   padding: 10px;
   border-radius: 8px;
+  color: #fff;
   background-color: #EA1D2C;
   transition: all ease-in .5s;
 }
